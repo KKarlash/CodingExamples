@@ -18,6 +18,54 @@
             endingLineNumber = "19"
             landmarkName = "TreeNode"
             landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "8BCE987F-FA2E-4187-AA2F-E22EBE40B6F0 - b0eb5aad44090633"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TreeNode::TreeNode(int)"
+                  moduleName = "CodingExamples"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kkarlash/Documents/Projects/CodingExamples/CodingExamples/CodingExamples/binarytree.h"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "19">
+               </Location>
+               <Location
+                  uuid = "8BCE987F-FA2E-4187-AA2F-E22EBE40B6F0 - b0eb5aad44090633"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TreeNode::TreeNode(int)"
+                  moduleName = "CodingExamples"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kkarlash/Documents/Projects/CodingExamples/CodingExamples/CodingExamples/binarytree.h"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "15">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ECF8DB1A-FC56-4152-B9DF-7CE1EE6C1BD1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CodingExamples/QueuePractice.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "QueuePractice::openLock(deadends, target)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
