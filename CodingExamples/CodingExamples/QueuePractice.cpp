@@ -55,6 +55,45 @@ int QueuePractice::openLock(vector<string>& deadends, string target) {
     return -1;
 }
 
+int QueuePractice::numSquares(int n) {
+    if (n <= 0) return 0;
+    vector<int> squares;
+    vector<int> takenSquares(n);
+    queue<int> bfs;
+    
+    for (int i = 0; i*i <= n; ++i) {
+        squares.push_back(i * i);
+        takenSquares[i - 1] = 1;
+    }
+    
+    if (squares.back() == n) return 1;
+    
+    for (const auto& item: squares) {
+        bfs.push(item);
+    }
+    
+    int count = 1;
+    while (bfs.empty() == false) {
+        count++;
+        int size = bfs.size();
+        for (int i = 0; i < size; ++i) {
+            int tmp = bfs.front();
+            for (const auto& square: squares) {
+                if (tmp + square > n) break;
+                if (tmp + square == n) return count;
+                if ((tmp + square < n) && takenSquares[tmp + square - 1] == 0) {
+                    takenSquares[tmp + square - 1] = 1;
+                    bfs.push(tmp + square);
+                    
+                }
+            }
+            bfs.pop();
+        }
+    }
+    
+    return 0;
+}
+
 vector<string> QueuePractice::nextStates(string state) {
     vector<string> result;
     for (int i = 0; i < 4; ++i) {

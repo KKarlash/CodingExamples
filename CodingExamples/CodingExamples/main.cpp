@@ -13,6 +13,6 @@ using namespace std;
 
 int main(int argc, const char * argv[]) {
     QueuePractice obj;
-    std::cout << "Result is:" << obj.openLock();
+    std::cout << "Result is:" << obj.numSquares(13);
     return 0;
 }
