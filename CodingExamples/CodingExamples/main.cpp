@@ -6,13 +6,9 @@
 //  Copyright © 2020 Kostiantyn Karlash. All rights reserved.
 //
 
-#include <iostream>
-#include "QueuePractice.h"
-
-using namespace std;
+#include "StackPractice.hpp"
 
 int main(int argc, const char * argv[]) {
-    QueuePractice obj;
-    std::cout << "Result is:" << obj.numSquares(13);
+    StackPractice obj;
     return 0;
 }
