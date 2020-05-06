@@ -3,16 +3,9 @@
 //  CodingExamples
 //
 //  Created by Kostiantyn Karlash on 08.01.20.
-//  Copyright © 2020 Kostiantyn Karlash. All rights reserved.
-//
+//  Copyright © 2020 Kostiantyn Karlash. All rights
 
-#include <iostream>
-#include "QueuePractice.h"
-
-using namespace std;
-
-int main(int argc, const char * argv[]) {
-    QueuePractice obj;
-    std::cout << "Result is:" << obj.numSquares(13);
+int main(int argc, const char * argv[])
+{
     return 0;
 }

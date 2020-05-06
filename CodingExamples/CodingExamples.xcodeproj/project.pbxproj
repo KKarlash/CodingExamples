@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		CF47B10223CEF1F90026E1DB /* binarytree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF47B10123CEF1F90026E1DB /* binarytree.cpp */; };
 		CF6216F423C5B68000A6ACFA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF6216F323C5B68000A6ACFA /* main.cpp */; };
+		CF6B729724630E5C00813853 /* StackPractice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF6B729524630E5C00813853 /* StackPractice.cpp */; };
 		CFDE56E3243836D20021AAD5 /* QueuePractice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CFDE56E2243836D20021AAD5 /* QueuePractice.cpp */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,8 @@
 		CF6216F023C5B68000A6ACFA /* CodingExamples */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodingExamples; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF6216F323C5B68000A6ACFA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		CF6216FA23C5B79900A6ACFA /* binarytree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = binarytree.h; sourceTree = "<group>"; };
+		CF6B729524630E5C00813853 /* StackPractice.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StackPractice.cpp; sourceTree = "<group>"; };
+		CF6B729624630E5C00813853 /* StackPractice.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = StackPractice.hpp; sourceTree = "<group>"; };
 		CFDE56E1243833940021AAD5 /* QueuePractice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = QueuePractice.h; path = ../../../../QueuePractice.h; sourceTree = "<group>"; };
 		CFDE56E2243836D20021AAD5 /* QueuePractice.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = QueuePractice.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -68,6 +71,8 @@
 				CF47B10123CEF1F90026E1DB /* binarytree.cpp */,
 				CFDE56E1243833940021AAD5 /* QueuePractice.h */,
 				CFDE56E2243836D20021AAD5 /* QueuePractice.cpp */,
+				CF6B729524630E5C00813853 /* StackPractice.cpp */,
+				CF6B729624630E5C00813853 /* StackPractice.hpp */,
 			);
 			path = CodingExamples;
 			sourceTree = "<group>";
@@ -132,6 +137,7 @@
 				CF47B10223CEF1F90026E1DB /* binarytree.cpp in Sources */,
 				CFDE56E3243836D20021AAD5 /* QueuePractice.cpp in Sources */,
 				CF6216F423C5B68000A6ACFA /* main.cpp in Sources */,
+				CF6B729724630E5C00813853 /* StackPractice.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
